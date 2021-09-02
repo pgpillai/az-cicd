@@ -25,10 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: Setup Python 3.5
+      - name: Setup Python 3.6
         uses: actions/setup-python@v2.2.2
         with:
-          python-version: 3.5 # optional, default is 3.x
+          python-version: 3.6 # optional, default is 3.x
  
       - name: Install dependencies
         run: make install
