@@ -31,7 +31,7 @@ jobs:
           python-version: 3.5 # optional, default is 3.x
  
       - name: Install dependencies
-        run: make Install
+        run: make install
         
       - name: Lint source 
         run: make lint
